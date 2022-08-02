@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MusicPlayer" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryVariant">@color/purple_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/purple_light</item>
+        <item name="colorSecondaryVariant">@color/pink_dark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/white</item>
+        <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+
+    </style>
+
+    <style name="Widget.AppCompat.Button.Colored" parent="Widget.MaterialComponents.Button">
+        <item name="colorButtonNormal">@color/purple_light</item>
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:foregroundTint">@color/white</item>
+    </style>
+</resources>
